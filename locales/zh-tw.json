@@ -1,0 +1,58 @@
+{
+  "loan": {
+    "usageStatus": "貸款額度使用情況",
+    "available": "能借",
+    "desired": "想借",
+    "excess": "超出"
+  },
+  "common": {
+    "currency": "元",
+    "currencyComma": "元，",
+    "currencyPeriod": "元。",
+    "percentSuffix": "%，",
+    "percentSuffixPeriod": "%。"
+  },
+  "calculator": {
+    "title": "質押的維持率多少才安全?",
+    "stockValuePrefix": "我有",
+    "stockValueSuffix": "元的股票，",
+    "loanRatePrefix": "質押",
+    "canBorrow": "能借",
+    "actualBorrowPrefix": "想借",
+    "increase": "增加",
+    "reinvestPrefix": "借的 ",
+    "reinvestSuffix": " 資金會買股再質押，提高維持率",
+    "possessiveParticle": "的",
+    "improveCollateralRatio": "抵押額度和維持率，",
+    "stockDropPrefix": "並準備好股票會下跌",
+    "maintenanceRatio": "維持率",
+    "cashAvailablePrefix": "還有 ",
+    "cashAvailableSuffix": "元 (現金)，可以隨時還款，"
+  },
+  "mode": {
+    "quick": "快速試算",
+    "advanced": "進階試算"
+  },
+  "risk": {
+    "forcedSell": "可能會被強制賣出",
+    "additionalFundsNeeded": "可能要準備補錢哦"
+  },
+  "errors": {
+    "requireStock": "要先在這裡抵押股票，才能借款哦",
+    "exceedLoanLimit": "你想借出 {{desired}} 元，但你抵押股票的最多只能借出 {{maximum}} 元"
+  },
+  "calcSteps": {
+    "title": "維持率計算過程",
+    "totalStockValue": "總擔保股票市值",
+    "stockValueAfterDrop": "預估跌幅後股票市值",
+    "adjustedLoan": "調整後的借款金額",
+    "maintenanceRatio": "維持率",
+    "divisionByZero": "無法除以零 (貸款金額扣除現金償還後為零或負數)",
+    "noReinvestment": "無再投資",
+    "rePledge": "再質押",
+    "cashSuffix": "現金",
+    "loanCanBePaidOff": "好厲害，你的現金已經可以隨時還清借款了",
+    "stockValueUnitLabel": "股票市值",
+    "loanUnitLabel": "借款"
+  }
+}

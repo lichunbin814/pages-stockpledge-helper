@@ -1,0 +1,58 @@
+{
+  "loan": {
+    "usageStatus": "Loan Limit Usage Status",
+    "available": "Available",
+    "desired": "Desired",
+    "excess": "Excess"
+  },
+  "common": {
+    "currency": "dollars",
+    "currencyComma": "dollars,",
+    "currencyPeriod": "dollars.",
+    "percentSuffix": "%,",
+    "percentSuffixPeriod": "%."
+  },
+  "calculator": {
+    "title": "What is a Safe Pledged Maintenance Ratio?",
+    "stockValuePrefix": "I have",
+    "stockValueSuffix": "dollars in stocks,",
+    "loanRatePrefix": "By pledging",
+    "canBorrow": "can borrow",
+    "actualBorrowPrefix": "Want to borrow",
+    "increase": "increase",
+    "reinvestPrefix": "Borrowed ",
+    "reinvestSuffix": " of the loan will be used to buy stocks and re-pledge to increase the maintenance ratio,",
+    "possessiveParticle": "'s",
+    "improveCollateralRatio": "collateral limit and maintenance ratio,",
+    "stockDropPrefix": "And be prepared for a stock drop of",
+    "maintenanceRatio": "Maintenance Ratio",
+    "cashAvailablePrefix": "Have ",
+    "cashAvailableSuffix": " cash available for immediate repayment,"
+  },
+  "mode": {
+    "quick": "Quick Calculator",
+    "advanced": "Advanced Calculator"
+  },
+  "risk": {
+    "forcedSell": "Forced selling may occur",
+    "additionalFundsNeeded": "Additional funds may be needed"
+  },
+  "errors": {
+    "requireStock": "You need to pledge stocks first before borrowing",
+    "exceedLoanLimit": "You want to borrow {{desired}} dollars, but you can only borrow up to {{maximum}} dollars with your pledged stocks"
+  },
+  "calcSteps": {
+    "title": "Maintenance Ratio Calculation Steps",
+    "totalStockValue": "Total Collateral Stock Value",
+    "stockValueAfterDrop": "Stock Value After Estimated Drop",
+    "adjustedLoan": "Adjusted Borrowed Amount",
+    "maintenanceRatio": "Maintenance Ratio",
+    "divisionByZero": "Cannot divide by zero (Adjusted loan is zero or negative)",
+    "noReinvestment": "No reinvestment",
+    "rePledge": "Re-pledged",
+    "cashSuffix": "Cash",
+    "loanCanBePaidOff": "(Impressive! Your cash can cover the loan at any time)",
+    "stockValueUnitLabel": "Stock Value",
+    "loanUnitLabel": "Loan"
+  }
+}
